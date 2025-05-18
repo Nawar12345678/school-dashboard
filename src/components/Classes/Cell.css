@@ -1,0 +1,32 @@
+/* td .content (subject - teacher)  */
+td .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+td .content .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+td .content .info p {
+    margin: 0;
+    text-align: left;
+}
+
+td .content button.edit {
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+td button.plus {
+    display: block;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}

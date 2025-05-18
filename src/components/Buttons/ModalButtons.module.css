@@ -1,0 +1,22 @@
+.cancelBtn {
+    color: #1246AC;
+    border: 1px solid #1246AC;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+.cancelBtn:hover {
+    color: #fff;
+    background-color: #1246AC !important;
+}
+
+.addBtn {
+    color: #fff !important;
+    background-color: #1246AC !important;
+    border: 1px solid #1246AC;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+.addBtn:hover {
+    color: #1246AC !important;
+    background-color: #fff !important;
+}

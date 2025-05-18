@@ -1,0 +1,9 @@
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title i:first-child {
+    color: #1246AC !important;
+}
+

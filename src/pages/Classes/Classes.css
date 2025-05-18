@@ -1,0 +1,134 @@
+/* ! --------------- classes  --------------- */
+button {
+    cursor: pointer;
+}
+.classes {
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* ! --------------- choose --------------- */
+
+.choose {
+    display: flex;
+    gap: 20px;
+}
+
+.choose .level {
+    padding: 5px 10px;
+    width: 200px;
+    font-weight: 500;
+    background-color: #efefef;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #181D26
+}
+.choose .class {
+    padding: 5px 10px;
+    width: 200px;
+    font-weight: 500;
+    background-color: #efefef;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #181D26
+}
+
+/*! --------------- table --------------- */
+
+table.classes-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.classes-table td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+    text-align: center;
+}
+
+.classes-table th {
+    font-weight: 400;
+    padding: 20px 15px;
+    border: 2px solid #dddddd;
+}
+
+.classes-table td {
+    background-color: #eee;
+}
+
+/* styling first child */
+.classes-table tr td:first-child {
+    background-color: #fff;
+}
+
+.classes-table tr th.day-duration {
+ position: relative;
+ overflow: hidden;
+}
+.classes-table tr th.day-duration p {
+    margin: 0;
+    position: absolute;
+}
+.classes-table tr th.day-duration p.day {
+    bottom: 5px;
+    left: 5px;
+}
+.classes-table tr th.day-duration p.duration {
+    top: 5px;
+    right: 5px;
+}
+/* control the seperator */
+.classes-table tr th.day-duration div.seperator {
+    position: absolute;
+    width: calc(100% + 20px);
+    height: 1px;
+    background-color: #ddd;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(20deg); /* change rotate degree on responsive */
+
+}
+
+
+
+/* popup */
+
+.popup {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.02);
+    z-index: 3333 !important;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+
+
+/* ! --------------- footer --------------- */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+footer > div {
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+}
+

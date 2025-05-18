@@ -1,0 +1,18 @@
+select.form-select {
+    background-color: #efefef;
+    border: none;
+    padding: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+select.form-select:focus {
+    box-shadow: none;
+}
+
+select.form-select:first-child{
+    width: 188px;
+}
+select.form-select:nth-child(2) {
+    width: 139px;
+}
+

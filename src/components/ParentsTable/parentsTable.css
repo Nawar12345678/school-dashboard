@@ -1,0 +1,14 @@
+.parents-table {
+    min-width: max-content;
+}
+.th {
+    font-weight: 400;
+    font-family: "inter";
+    color: '#000';
+    text-align: center;
+}
+
+td {
+
+    text-align: center;
+}

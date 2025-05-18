@@ -1,0 +1,76 @@
+/* add popup*/
+
+td .add-popup.active {
+    display: block;
+}
+
+td  form.add-popup-form {
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    z-index: 4000;
+}
+
+td  form.add-popup-form .row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+td  form.add-popup-form .row p {
+    margin: 0;
+    font-weight: 600;
+}
+
+td  form.add-popup-form .row select {
+    padding: 10px 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+
+td  form.add-popup-form .row input {
+    padding: 10px 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+
+td  form.add-popup-form .btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+td  form.add-popup-form .btns button {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+}
+
+td  form.add-popup-form .btns button:hover {
+    opacity: 0.7;
+}
+
+td  form.add-popup-form .btns button.cancel {
+    border: 1px solid blue;
+    background-color: white;
+}
+
+td  form.add-popup-form .btns button.add {
+    background-color: blue;
+    color: white;
+}

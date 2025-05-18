@@ -1,0 +1,138 @@
+.card {
+    border-radius: 4px;
+    background: #FFF;
+    border: none !important;
+}
+.card.shadow{
+    /* Card Shadow */
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+    width: 66px;
+    height: 62px;
+    padding: 8px;
+    background-color: #EAF1FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.heading-total {
+    color: #181D26;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.text1 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+
+}
+
+.chart-title {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.year-btn {
+    color: #000 !important;
+    background-color: #EAF1FF !important;
+    border: none !important;
+}
+
+.StudentClass-btn,
+.grade-btn {
+    background: transparent !important;
+    border: none !important;
+    color: #585859 !important;
+    font-size: 16px !important;
+    padding: 0 !important;
+}
+.StudentClass-btn{
+    margin-left: 30px !important;
+}
+
+/* calendar */
+.MuiStack-root {
+    background-color: aliceblue;
+}
+
+.css-1q04gal-MuiDateCalendar-root {
+    width: auto !important;
+}
+
+.css-1rv8zyt-MuiStack-root {
+    padding-top: 0 !important;
+}
+
+/* card event  */
+.event-title {
+    padding: 16px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.card-title.event {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-subtitle.event {
+    font-size: 16px;
+}
+
+/* --------------------------------------- */
+.student-grade .card-title .title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.class-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.info p {
+    color: #585859 !important;
+    font-size: 16px;
+    margin: 0;
+}
+
+.info span {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.statistics-section .card {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .statistics-section .progress-circle {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .statistics-section .card h5 {
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 992px) {
+    .statistics-section .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
